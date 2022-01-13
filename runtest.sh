@@ -108,6 +108,7 @@ echo " "
 # Use GMAI
 echo "Using GMAI on GPU"
 cd GMAI/src
+make clean
 make clean_info && make show_alloc_info arch=$1
 cp info.cfg ../../results
 cd ../..
