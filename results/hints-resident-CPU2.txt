@@ -1,0 +1,17 @@
+ MAJFL
+     0
+ MAJFL
+     1
+ MAJFL
+     1
+ MAJFL
+    11
+ MAJFL
+    11
+ MAJFL
+    21
+hints-CPU with size 16384 and AccessedBy
+cudaDevAttrConcurrentManagedAccess = 0
+cudaCpuDeviceId = -1
+hints-CPU with size 65536 and NOT AccessedBy
+ Total Page faults during the execution = 21

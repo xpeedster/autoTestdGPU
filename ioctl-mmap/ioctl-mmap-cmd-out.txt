@@ -1,0 +1,21 @@
+First allocation of 1 B
+Second allocation of 1 B
+First free
+First free
+First allocation of 65536 B
+Second allocation of 65536 B
+First free
+First free
+First allocation of 1048576 B
+Second allocation of 1048576 B
+First free
+First free
+First allocation of 2097152 B
+Second allocation of 2097152 B
+First free
+First free
+First allocation of 2097156 B
+Second allocation of 2097156 B
+First free
+First free
+----------------------------------------

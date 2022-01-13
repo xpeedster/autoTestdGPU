@@ -1,0 +1,18 @@
+ MAJFL
+     0
+ MAJFL
+     1
+ MAJFL
+     1
+ MAJFL
+    11
+ MAJFL
+    11
+ MAJFL
+    21
+hints-CPU with size 16384 and AccessedBy
+cudaDevAttrConcurrentManagedAccess = 0
+cudaCpuDeviceId = -1
+hints-CPU with size 65536 and AccessedBy
+Error: hints-CPU.cu:96, code:101, reason: invalid device ordinal
+ Total Page faults during the execution = 21

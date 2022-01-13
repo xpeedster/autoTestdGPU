@@ -1,0 +1,18 @@
+ MAJFL
+     0
+ MAJFL
+     1
+ MAJFL
+     1
+ MAJFL
+    11
+ MAJFL
+    11
+ MAJFL
+    21
+hints-GPU with size 16384 and AccessedBy
+cudaDevAttrConcurrentManagedAccess = 0
+Error: hints-GPU.cu:91, code:101, reason: invalid device ordinal
+cudaCPUDeviceId = -1
+hints-GPU with size 65536 and AccessedBy
+ Total Page faults during the execution = 21

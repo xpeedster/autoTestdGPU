@@ -1,0 +1,12 @@
+Tests done using allocations of size = 65536 bytes.
+Test0: noGPU. 100 iterations from CPU.
+		PageFaults = 1
+Test1: Stream0 and sumKernel_all. 100 iterations.
+		PageFaults = 100
+Test2: Stream1 and sumKernel_all.100 iterations.
+		PageFaults = 100
+Test3: Stream0 and emptyKernel. 100 iterations.
+		PageFaults = 100
+Test4: Stream1 and emptyKernel. 100 iterations.
+		PageFaults = 100
+ Total Page faults during the execution = 401

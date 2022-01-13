@@ -1,0 +1,10 @@
+How to obtain the file descriptors of a process in execution
+
+Terminal 1:
+$ make trace
+
+Terminal 2:
+$ pidof ./unifiedMemoryTest
+    Output: PID
+$ sudo su
+$ ls /proc/PID/fd
