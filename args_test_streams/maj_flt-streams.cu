@@ -149,21 +149,21 @@ int main(int argc, char** argv)
 	pf_before = exec("ps -C maj_flt-streams -o maj_flt");
 
 	// CPU Affinity
-	//cpu_set_t mask;
-	//CPU_ZERO(&mask);
-	//CPU_SET(1, &mask);
-	//if(sched_setaffinity(0, sizeof(cpu_set_t), &mask) <0)
-	//{
-	//	perror("sched_setaffinity_failed");
-	//	exit(-1);
-	//}
+	cpu_set_t mask;
+	CPU_ZERO(&mask);
+	CPU_SET(1, &mask);
+	if(sched_setaffinity(0, sizeof(cpu_set_t), &mask) <0)
+	{
+		perror("sched_setaffinity_failed");
+		exit(-1);
+	}
 
 	// Memory locking
-	//if(mlockall(MCL_CURRENT | MCL_FUTURE) < 0)
-	//{
-	//	perror("mklockall failed");
-	//	exit(-1);
-	//}
+	if(mlockall(MCL_CURRENT | MCL_FUTURE) < 0)
+	{
+		perror("mklockall failed");
+		exit(-1);
+	}
 
 
 	cudaStream_t stream1;
