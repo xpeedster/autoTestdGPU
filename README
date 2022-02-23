@@ -1,3 +1,7 @@
+# autoTest dGPU
+
+## How to launch
+
 Para realizar las pruebas hay que lanzar el archivo "runtest.sh" de la siguiente forma
 
 . ./runtest.sh sm_XX
